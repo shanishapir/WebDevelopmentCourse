@@ -1,0 +1,130 @@
+body {
+    direction: rtl;
+    background-image: url('pexels-photo-47454 (2).jpeg');
+    
+}
+div#container{
+    width: 960px;
+    height: 0 auto;
+    
+    
+}
+div#shani{
+margin-top: 30px;
+margin-right: 60px;
+padding-top: 5px;
+padding-right: 280px;
+}
+h1{
+    color: darkcyan;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: Abraham;
+    text-align: center;
+
+}
+h2 {
+    color: cornflowerblue;
+    font-size: 28px;
+    font-family: Abraham;
+    text-align: center;
+}
+.has {
+    color: cornflowerblue;
+    font-size: 28px;
+    font-family: Abraham;
+    text-align: right;
+    padding-top: 50px;
+}
+
+.limod {
+    color: lightslategrey;
+    font-size: 20px;
+    font-family: Abraham;
+    text-align: right;
+    
+}
+    .thom {
+    color: cornflowerblue;
+    font-size: 28px;
+    font-family: Abraham;
+    text-align: right;
+}
+ul {
+    color: lightslategrey;
+    font-size: 20;
+    font-family: Abraham;
+    text-align: right;
+    list-style-type: circle;
+}
+
+
+h3 {
+    color: darksalmon;
+    font-size: 28px;
+    font-family: Abraham;
+    text-align: center;
+}
+p {
+    color: lightslategrey;
+    font-size: 20px;
+    font-family: Abraham;
+    text-align: center;
+}
+.fa {
+    padding: 20px;
+    font-size: 60px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    margin-right: 50px;
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+    .fa::after {
+        content: " ";
+        background: sandybrown;
+        display: block;
+        position: absolute;
+        padding-top: 300%;
+        padding-left: 350%;
+       
+        opacity: 0;
+        transition: all 0.8s
+    }
+
+    
+
+    
+.fa:hover {
+    opacity: 0.4;
+}
+
+.fa-facebook {
+    background: #ffffff;
+    color: darkblue;
+}
+
+
+
+.fa-google {
+    background: #ffffff;
+    color: orangered;
+}
+.fa-instagram {
+    background: #ffffff;
+    color: darksalmon;
+}
