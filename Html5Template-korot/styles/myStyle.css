@@ -6,6 +6,7 @@ body {
 div#container{
     width: 960px;
     height: 0 auto;
+    background-size: cover;
     
     
 }
@@ -34,7 +35,7 @@ h2 {
     font-size: 28px;
     font-family: Abraham;
     text-align: right;
-   padding-top: 60px;
+   padding-top: 80px;
 }
 
 .limod {
