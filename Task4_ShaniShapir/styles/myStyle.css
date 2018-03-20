@@ -1,0 +1,288 @@
+body {
+    direction: rtl;
+    background: url('pexels-photo-47454 (2).jpeg') no-repeat center top;
+    background-color:lightgray;
+}
+div#container {
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+    
+}
+div#shani{
+margin-top: 5px;
+margin-right: 5px;
+padding-top: 5px;
+padding-right: 5px;
+}
+h1{
+    color: darkcyan;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: Calibri;
+    text-align: center;
+
+}
+h2 {
+    color: cornflowerblue;
+    font-size: 28px;
+    font-family: Calibri;
+    text-align: center;
+}
+.has {
+    color: cornflowerblue;
+    font-size: 28px;
+    font-family: Calibri;
+    text-align: center;
+    /*margin-bottom:25px;
+   padding-bottom: 25px;*/
+}
+
+.limod {
+    color: lightslategrey;
+    font-size: 20px;
+    font-family: Calibri;
+    text-align: center;
+    margin-bottom: 25px;
+    padding-bottom: 100px;
+}
+    .thom {
+    color: cornflowerblue;
+    font-size: 28px;
+    font-family: Calibri;
+    text-align: center;
+}
+ul {
+    color: lightslategrey;
+    font-size: 20;
+    font-family: Calibri;
+    text-align: center;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+
+h3 {
+    color: darksalmon;
+    font-size: 28px;
+    font-family: Calibri;
+    text-align: center;
+    margin-top: 320px;
+}
+p {
+    color: lightslategrey;
+    font-size: 20px;
+    font-family: Calibri;
+    text-align: center;
+    display: inline-block;
+    float: right;
+}
+.fa {
+    padding: 5px;
+    font-size: 60px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 50px;
+    margin-right: 100px;
+    display:inline-block ;
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+   
+}
+
+    .fa::after {
+        content: " ";
+        background: sandybrown;
+        display: block;
+        position: absolute;
+        padding-top: 300%;
+        padding-left: 350%;
+        opacity: 0;
+        transition: all 0.8s
+    }
+
+    
+
+    
+.fa:hover {
+    opacity: 0.4;
+}
+
+.fa-facebook {
+    background: #ffffff;
+    color: darkblue;
+}
+
+
+
+.fa-google {
+    background: #ffffff;
+    color: orangered;
+
+}
+.fa-instagram {
+    background: #ffffff;
+    color: darksalmon;
+}
+body {
+    direction: rtl;
+    font-family: Calibri;
+}
+
+#container {
+    width: 980px;
+    height: 0auto;
+}
+
+nav#home ul {
+    list-style: none;
+    margin-top: 50px;
+    margin-right: 300px;
+}
+
+    nav#home ul li {
+        display: inline-block;
+        float: right;
+    }
+
+        nav#home ul li a {
+            display: block;
+            background-color: goldenrod;
+            color: white;
+            font-weight: bold;
+            font-family:Calibri;
+            border-radius: 50%;
+            margin: 10px;
+            padding: 40px 20px;
+            text-decoration: none;
+            text-align: center;
+            opacity: 0.6;
+        }
+
+            nav#home ul li a:hover {
+                background-color: grey;
+                opacity: 0.4;
+            }
+
+            /*nav ul li a:active {
+                background-color: green;
+            }*/
+div#work h1 {
+    font-family: Calibri;
+    font-weight: bold;
+    text-align: center;
+    font-size: 32px;
+    color: darkcyan;
+    margin-top: 50px;
+}
+div#work p {
+    font-family: Calibri;
+    text-align: center;
+    font-size: 22px;
+    color: goldenrod;
+    margin-top: 50px;
+    margin-right: 280px;
+   
+}
+div#work h2 {
+    font-family: Calibri;
+    text-align: center;
+    font-size: 28px;
+    color: darksalmon;
+    margin-top: 150px;
+    
+}
+nav.workt ul {
+    list-style: none;
+    margin-top:50px;
+    margin-right:300px;
+}
+
+top.workt nav ul li {
+    display: inline-block;
+    float: right;
+}
+
+nav.workt ul li a {
+    
+            display: inline-block;
+           float: right;
+            background-color: goldenrod;
+            color: white;
+            font-weight: bold;
+            font-family: Calibri;
+            height: 30px;
+            width: 80px;
+            margin: 2px;
+            text-decoration: none;
+            text-align: center;
+            
+           
+        }
+
+            nav.workt ul li a:hover {
+                background-color: grey;
+                opacity: 0.4;
+            }
+
+div#hubby h1 {
+    font-family: Calibri;
+    font-weight: bold;
+    text-align: center;
+    font-size: 32px;
+    color: darkcyan;
+    margin-top:50px;
+    margin-bottom: 80px;
+}
+div#hubby  ul li {
+    font-family: Calibri;
+    text-align: right;
+    font-size: 22px;
+    color: goldenrod;
+    
+}
+div#hubby h2 {
+    font-family: Calibri;
+    text-align: center;
+    font-size: 28px;
+    color: darksalmon;
+    margin-top: 150px;
+}
+
+div#edu h1 {
+    font-family: Calibri;
+    font-weight: bold;
+    text-align: center;
+    font-size: 32px;
+    color: darkcyan;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+div#edu  p {
+    font-family: Calibri;
+    margin-right: 200px;
+    text-align: center;
+    font-size: 22px;
+    color: goldenrod;
+}
+
+div#edu h2 {
+    font-family: Calibri;
+    text-align: center;
+    font-size: 28px;
+    color: darksalmon;
+    margin-top: 150px;
+}
